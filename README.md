@@ -4,6 +4,6 @@ This project was built with [Create React App](https://github.com/facebook/creat
 
 A pokemon search app built using React, Chakra UI and Poke API
 
-### Lve Implementation
+### Live Implementation
 
 [Click here to view](https://duruyoungcr.github.io/pokemonhub/).
