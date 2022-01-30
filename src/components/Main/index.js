@@ -100,7 +100,7 @@ const Main = () => {
         if (!name) {
             toast({
                 title: "Not allowed!",
-                description: "Please enter a team name to search",
+                description: "Please enter a team name",
                 status: "error",
                 duration: 5000,
                 isClosable: true,
