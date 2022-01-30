@@ -46,8 +46,8 @@ const SeeMoreModal = ({ isOpen, onClose, pokemon }) => {
                                     textTransform='capitalize'
                                 >
                                     <Stack spacing={[3]}>
-                                        {pokemon?.stats?.map((stat) => (
-                                            <Box>
+                                        {pokemon?.stats?.map((stat, i) => (
+                                            <Box key={i}>
                                                 <Text mb={[1, 2]} fontSize={['12px', '16px']} fontWeight="medium">{stat.stat.name}</Text>
                                                 <Progress
                                                     colorScheme={'teal'}
