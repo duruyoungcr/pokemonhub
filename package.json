@@ -1,8 +1,11 @@
 { 
   "homepage": "https://duruyoungcr.github.io/pokemonhub",
-  "name": "my-app",
+  "name": "pokemonhub",
   "version": "0.1.0",
   "private": true,
+  "description": "A Search App for pokemons",
+  "author": "Duru-young Raymond <duruyoungcr@gmail.com> (@duruyoungcr)",
+  "license": "MIT",
   "dependencies": {
     "@chakra-ui/react": "^1.0.0",
     "@emotion/react": "^11.0.0",
