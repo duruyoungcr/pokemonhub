@@ -26,17 +26,17 @@ const Main = () => {
                 setPokemon(pokemon);
                 pokemon && setTimeout(() => {
                     setLoading(false)
-                }, 2000);
+                }, 1000);
             } catch (error) {
-                toast({
-                    title: 'An error occurred',
-                    description: "Couldn't find a Pokemon with that name",
-                    status: "error",
-                    duration: 5000,
-                    isClosable: true,
-                })
                 setTimeout(() => {
                     setLoading(false)
+                    toast({
+                        title: 'An error occurred',
+                        description: "Couldn't find a Pokemon with that name",
+                        status: "error",
+                        duration: 5000,
+                        isClosable: true,
+                    })
                 }, 2000);
             }
         }
@@ -71,18 +71,18 @@ const Main = () => {
                 localStorage.setItem('team', JSON.stringify(team))
                 setTimeout(() => {
                     setTeam(team)
-                }, 3000);
+                }, 2000);
             }
             else {
                 team.push(pokemon)
                 localStorage.setItem('team', JSON.stringify(team))
                 setTimeout(() => {
                     setTeam(team)
-                }, 3000);
+                }, 2000);
             }
             setTimeout(() => {
                 setProcessing('')
-            }, 3000);
+            }, 2000);
         }
     }
     const removeFromTeam = (pokemon) => {
@@ -93,7 +93,7 @@ const Main = () => {
         setTimeout(() => {
             setTeam(team)
             setProcessing('')
-        }, 3000);
+        }, 2000);
     }
 
     const createTeam = (name) => {
