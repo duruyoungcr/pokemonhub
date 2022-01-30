@@ -5,6 +5,7 @@
   "private": true,
   "description": "A Search App for pokemons",
   "author": "Duru-young Raymond <duruyoungcr@gmail.com> (@duruyoungcr)",
+  "keywords": ["pokemon", "pokemons", "search", "pokeapi"],
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/react": "^1.0.0",
